@@ -2,9 +2,18 @@
 #	production that isn't in development.
 -r base.txt
 
-gunicorn==18.0
-django-storages==1.1.8
-Collectfast==0.1.13
-gevent==1.0
-boto==2.25.0
-python-memcached==1.53
+#gunicorn==18.0
+
+cython
+gunicorn
+uwsgi
+#django-storages==1.1.8
+django-storages
+#Collectfast==0.1.13
+Collectfast
+#gevent==1.0
+gevent
+#boto==2.25.0
+boto
+#python-memcached==1.53
+python-memcached
